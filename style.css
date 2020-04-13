@@ -1,0 +1,46 @@
+.container
+{
+    max-width: 600px;
+}
+
+body 
+{
+    background: linear-gradient(rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url('./img/5.jpg') no-repeat center/cover;
+}
+.btn
+{
+    background: #43d9be;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn:focus
+{
+    outline: none !important;
+}
+
+.username 
+{
+    font-weight: bold;
+}
+
+.time 
+{
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-msg 
+{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.chat-window
+{
+    max-height: 270px;
+    overflow: auto;
+}
